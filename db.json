@@ -8,17 +8,83 @@
       "pass": "rahul123"
     }
   ],
-  "hotels": [
+  "movies": [
     {
-      "id": 1,
-      "category": "Family",
-      "image_url": "https://www.acaciahotelsmanila.com/wp-content/uploads/2020/09/room-deluxe_70df34c103b85ce7b2b5ff918ab8cf72.jpg",
-      "type_of_room": "AC",
-      "bed_type": "Double",
-      "no_of_persons": 2,
-      "capacity": 3,
-      "cost": 4000,
-      "booked": false
+      "id" : 1,
+      "poster" : "https://image.tmdb.org/t/p/original/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg",
+      "title" : "Doctor Strange in the Multiverse of Madness",
+      "director" : "Sam Raimi",
+      "year" : 2022,
+      "genre" : "Action",
+      "IMDB_Rating" : 6.8,
+      "ticket" : 200
+    },
+    {
+      "id" : 2,
+      "poster" : "https://images2.9c9media.com/image_asset/2019_2_14_f02ce589-7434-4ef2-ae0f-1879c20072e2_png_2000x3000.jpg",
+      "title" : "I Am Legend",
+      "director" : "Francis Lawrence",
+      "year" : 2007,
+      "genre" : "Horror",
+      "IMDB_Rating" : 7.2,
+      "ticket" : 200
+    },
+    {
+      "id" : 3,
+      "poster" : "https://images2.9c9media.com/image_asset/2019_2_14_f02ce589-7434-4ef2-ae0f-1879c20072e2_png_2000x3000.jpg",
+      "title" : "I Am Legend2",
+      "director" : "Francis Lawrence",
+      "year" : 2009,
+      "genre" : "Comedy",
+      "IMDB_Rating" : 7.2,
+      "ticket" : 400
+    },
+    {
+      "id" : 4,
+      "poster" : "https://image.tmdb.org/t/p/original/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg",
+      "title" : "Doctor Strange in the Multiverse of Madness",
+      "director" : "Sam Raimi",
+      "year" : 2022,
+      "genre" : "Romance",
+      "IMDB_Rating" : 6.8,
+      "ticket" : 600
+    },
+    {
+      "id" : 5,
+      "poster" : "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyOTYyMzUxNl5BMl5BanBnXkFtZTcwNTg0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+      "title" : "Avatar",
+      "director" : "James Cameron",
+      "year" : 2012,
+      "genre" : "Action",
+      "IMDB_Rating" : 7.9,
+      "ticket" : 1000
+    },
+    {
+      "id" : 6,
+      "poster" : "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA3NTEwOTMxMV5BMl5BanBnXkFtZTgwMjMyODgxMzE@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+      "title" : "Interstellar",
+      "director" : "Christopher Nolan",
+      "year" : 2017,
+      "genre" : "Romance",
+      "IMDB_Rating" :4.5,
+      "ticket" : 200
+    },
+    {
+      "id" : 7,
+      "poster" : "https://images-na.ssl-images-amazon.com/images/M/MV5BNDc1MGUyNzItNWRkOC00MjM1LWJjNjMtZTZlYWIxMGRmYzVlXkEyXkFqcGdeQXVyMzU3MDEyNjk@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+      "title" : "Game of Thrones",
+      "director" : "David Benioff",
+      "year" : 2016,
+      "genre" : "Action",
+      "IMDB_Rating" :6.8,
+      "ticket" : 400
+    }
+  ],
+  "reports":[
+    {
+      "id":1,
+      "username":"rahul06",
+      "bookedMovie":"I Am Legend2"
     }
   ]
 }
